@@ -10,7 +10,16 @@ function App() {
           <Dictonary />
         </main>
         <footer className="App-footer">
-          <small>Coded by Yosmeli Figueroa</small>
+          <small>
+            Coded by{" "}
+            <a
+              href="https://github.com/ynatashafr/dictonary-project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Yosmeli Figueroa
+            </a>
+          </small>
         </footer>
       </div>
     </div>
