@@ -17,8 +17,13 @@ body {
   background: #d7c8e8;
 }
 
-img {
+.github {
   text-align: center;
+  width: 40px;
+}
+
+.App a {
+  color: #db8efd;
 }
 
 .App h1 {

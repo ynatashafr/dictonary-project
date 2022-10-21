@@ -1,5 +1,6 @@
 import "./App.css";
 import Dictonary from "./Dictonary";
+import githubLogo from "./githubLogo.png";
 
 function App() {
   return (
@@ -14,11 +15,20 @@ function App() {
           <small>
             Coded by{" "}
             <a
+              href="https://www.linkedin.com/in/yosmeli-figueroa-49a724104/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              Yosmeli Figueroa{" "}
+            </a>
+            Open-sourced on{" "}
+            <a
               href="https://github.com/ynatashafr/dictonary-project"
               target="_blank"
               rel="noreferrer"
             >
-              Yosmeli Figueroa
+              <img className="github" src={githubLogo} alt="github"></img>
             </a>
           </small>
         </footer>
