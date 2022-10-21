@@ -1,5 +1,6 @@
 import React from "react";
 import play from "./play.png";
+import "./Phonetic.css";
 
 export default function Phonetic(props) {
   return (
@@ -8,7 +9,7 @@ export default function Phonetic(props) {
         <img src={play} alt="play" />
       </a>
       <br />
-      {props.phonetic.text}
+      <span className="text">{props.phonetic.text}</span>
     </div>
   );
 }

@@ -1,0 +1,12 @@
+.Meaning h4 {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0 0 10px;
+  font-family: "Dancing Script", cursive;
+}
+
+.Meaning .example {
+  font-style: italic;
+  color: #d289f0;
+  margin-top: 10px;
+}

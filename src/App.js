@@ -5,9 +5,10 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header"></header>
+        <header className="App-header"> </header>
+        <h1 className="Title">Dictionary</h1>
         <main>
-          <Dictonary />
+          <Dictonary defaultKeyword="sunset" />
         </main>
         <footer className="App-footer">
           <small>
